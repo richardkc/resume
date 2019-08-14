@@ -74,6 +74,7 @@ body main .downloadResume:hover{box-shadow: 0px 5px 13px 0px rgba(0,0,0,0.2);}
 section.skills,
 section.portfolio{ max-width: 948px;margin-left: auto;margin-right: auto;margin-top: 60px;}
 section.skills h2,
+section.message h2,
 section.portfolio h2{text-align: center;color: #3d4451;font-size: 34px;line-height: 1.2;font-weight: 600;}
 section.skills h3{font-size: 14px;line-height: 1.1;padding-right: 40px;}
 section.skills ol{background: white;box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);padding: 43px 50px 15px;margin-top: 30px;}
@@ -102,6 +103,24 @@ section.portfolio .swiper-container {width:592px;height: 444px;background: white
 
 .portfolio{
     z-index: 5;
+}
+
+section.message{width: 700px;margin: 50px auto;text-align: center;}
+section.message ol{
+    max-width: 600px;
+    margin: 20px auto;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    background: #f4f4f4;
+}
+section.message ol li{
+    padding: 16px 0;
+    color: #e6686a;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+section.message h2{
+    margin-bottom: 32px;
 }
 
 /*section.portfolio nav{text-align: center;display: inline-block;vertical-align: top;margin-top: 32px;}
